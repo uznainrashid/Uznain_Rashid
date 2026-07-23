@@ -121,9 +121,9 @@ export default function Hero() {
         >
           {[
             { icon: <FiGithub size={20} />, href: "https://github.com/uznainrashid" },
-            { icon: <FiLinkedin size={20} />, href: "#" },
-            { icon: <FiTwitter size={20} />, href: "#" },
-            { icon: <FiInstagram size={20} />, href: "#" },
+            { icon: <FiLinkedin size={20} />, href: "https://www.linkedin.com/in/uznain-rashid-806442321/" },
+            { icon: <FiTwitter size={20} />, href: "https://twitter.com/uznainrashid" },
+            { icon: <FiInstagram size={20} />, href: "https://instagram.com/uznain_1" },
             { icon: <FiMail size={20} />, href: "mailto:uznainrashid@gmail.com" },
           ].map((social, idx) => (
             <motion.a 
