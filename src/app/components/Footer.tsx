@@ -50,9 +50,9 @@ export default function Footer() {
           <div className="flex items-center gap-2 text-slate-400 dark:text-slate-500 border-r border-slate-200 dark:border-cyber-border pr-4">
             {[
               { icon: <FiGithub size={15} />, href: "https://github.com/uznainrashid" },
-              { icon: <FiLinkedin size={15} />, href: "#" },
-              { icon: <FiTwitter size={15} />, href: "#" },
-              { icon: <FiInstagram size={15} />, href: "#" },
+              { icon: <FiLinkedin size={15} />, href: "https://www.linkedin.com/in/uznain-rashid-806442321/" },
+              { icon: <FiTwitter size={15} />, href: "https://twitter.com/uznainrashid" },
+              { icon: <FiInstagram size={15} />, href: "https://instagram.com/uznain_1" },
             ].map((social, idx) => (
               <motion.a
                 key={idx}
