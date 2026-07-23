@@ -1,0 +1,22 @@
+
+
+@import "tailwindcss";
+
+
+@theme {
+  /* Custom colors matching your premium design */
+  --color-cyber-bg: #030712;
+  --color-cyber-card: #0b1329;
+  --color-cyber-border: #1e293b;
+  
+  --color-cyber-blue-50: #eff6ff;
+  --color-cyber-blue-400: #60a5fa;
+  --color-cyber-blue-600: #2563eb;
+  --color-cyber-blue-700: #1d4ed8;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* Custom dark mode variant rule for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
