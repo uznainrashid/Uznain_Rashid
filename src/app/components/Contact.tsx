@@ -110,7 +110,7 @@ export default function ContactPage() {
             variants={itemVariants}
             className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white"
           >
-            Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-blue-600 to-cyber-blue-400 drop-shadow-sm">Touch</span> 🚀
+            Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-blue-600 to-cyber-blue-400 drop-shadow-sm">Touch</span> 
           </motion.h1>
 
           {/* Sub-text description */}
