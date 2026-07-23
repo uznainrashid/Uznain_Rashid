@@ -156,7 +156,7 @@ export default function ContactPage() {
               </div>
               <div className="text-left">
                 <p className="text-[11px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider">Availability</p>
-                <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Open for Freelance & Remote Roles</p>
+                <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Open for Freelance & Remote Roles OR Full-Time Opportunities</p>
               </div>
             </div>
 
