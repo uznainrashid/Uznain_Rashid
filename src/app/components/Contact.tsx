@@ -181,7 +181,7 @@ export default function ContactPage() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  placeholder="John Doe" 
+                  placeholder="Your Name" 
                   className="w-full bg-white dark:bg-cyber-bg border border-slate-300 dark:border-cyber-border rounded-lg px-4 py-3 text-sm text-slate-900 dark:text-white focus:outline-none focus:border-cyber-blue-600 focus:ring-1 focus:ring-cyber-blue-600/20 transition-all" 
                 />
               </div>
@@ -194,7 +194,7 @@ export default function ContactPage() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="name@example.com" 
+                  placeholder="Your Email" 
                   className="w-full bg-white dark:bg-cyber-bg border border-slate-300 dark:border-cyber-border rounded-lg px-4 py-3 text-sm text-slate-900 dark:text-white focus:outline-none focus:border-cyber-blue-600 focus:ring-1 focus:ring-cyber-blue-600/20 transition-all" 
                 />
               </div>
@@ -207,7 +207,7 @@ export default function ContactPage() {
                 name="subject"
                 value={formData.subject}
                 onChange={handleChange}
-                placeholder="Project Collaboration" 
+                placeholder="Your Subject & Project Idea" 
                 className="w-full bg-white dark:bg-cyber-bg border border-slate-300 dark:border-cyber-border rounded-lg px-4 py-3 text-sm text-slate-900 dark:text-white focus:outline-none focus:border-cyber-blue-600 focus:ring-1 focus:ring-cyber-blue-600/20 transition-all" 
               />
             </div>
